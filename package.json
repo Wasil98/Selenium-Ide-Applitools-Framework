@@ -1,0 +1,17 @@
+{
+  "name": "selenium-applitools-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha tests/loginTest.spec.js"
+  },
+  "keywords": [],
+  "author": "Wasil Ahmed",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-selenium": "^4.78.2",
+    "mocha": "^10.8.2",
+    "selenium-side-runner": "^4.0.13"
+  }
+}
